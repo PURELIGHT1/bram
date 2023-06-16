@@ -20,7 +20,7 @@ export const profile = {
   "img": bram,
   "experience": [
     { "number": "2+", "title": "Years of Experience" },
-    { "number": "2", "title": "Real Project" },
+    { "number": "3", "title": "Real Project" },
   ],
 };
 
