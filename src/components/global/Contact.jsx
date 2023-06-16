@@ -7,6 +7,8 @@ import Swal from 'sweetalert2'
 import useModalStore from '../../utils/helpers/useModalStore'
 import { usePostFeedback } from '../../utils/hooks/queries'
 import { Navigate } from 'react-router-dom'
+import database from '../../utils/hooks/firebaseConfig'
+import { push, ref } from '@firebase/database'
 
 let schema = yup.object().shape({
     name: yup.string().required(),

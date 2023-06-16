@@ -1,16 +1,17 @@
-import axios from "axios";
+import axios from "axios"
+import database from './firebaseConfig'
+import { onValue, push, ref } from "@firebase/database";
 
 const useApi = () => {
     const postFeedback = async (data) => {
         try {
-            const res = await axios.post('https://portfolioapi.netlify.app/api/feedback', {
+            const res =push(ref(database, "feedback"), {
                 nama: data.name,
                 email: data.email,
                 pesan: data.message,
             });
-              if (res.data.status === 200 || res.data.status === 201 || res.data.status === 202) {
-                return res.data.data;
-            }
+            console.log(res);
+            return res;
         } catch (error) {
             throw error;
         }

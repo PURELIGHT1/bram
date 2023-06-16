@@ -9,7 +9,7 @@ const About = ({ about : { title, text, btn1 }}) => {
             <h1 className='text-6xl font-bold lg:text-6xl md:text-5xl sm:text-4xl xsm:text-3xl text-black filter drop-shadow-lg'>{title}</h1>
             <p className='text-base my-5 text-center sm:text-sm'>{text}</p>
             <div className='flex items-center justify-center gap-11 sm:gap-3 sm:flex-col sm:w-full'>
-              <a href="#"><button type='button' className='button-light'>{btn1}</button></a>
+              <a href="https://drive.google.com/file/d/11zNT8pth8xmFlrgcux1hEKKcwgmMzoMV/view?usp=sharing"><button type='button' className='button-light'>{btn1}</button></a>
             </div>
           </div>
         </div>
