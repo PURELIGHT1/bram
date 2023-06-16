@@ -3,7 +3,7 @@ import axios from "axios";
 const useApi = () => {
     const postFeedback = async (data) => {
         try {
-            const res = await axios.post('http://localhost:8083/api/feedback', {
+            const res = await axios.post('https://portfolioapi.netlify.app/api/feedback', {
                 nama: data.name,
                 email: data.email,
                 pesan: data.message,
