@@ -12,6 +12,7 @@
   "dependencies": {
     "@firebase/database": "^0.14.4",
     "@hookform/resolvers": "^3.1.1",
+    "@splidejs/react-splide": "^0.7.12",
     "@tanstack/react-query": "^4.29.13",
     "axios": "^1.4.0",
     "firebase": "^9.22.2",

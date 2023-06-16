@@ -9,7 +9,7 @@ export const navlinks = [
 
 export const about = {
   "title": "Bram Majaya Perangin-angin",
-  "text": "I am a Back End Developer based in Yogyakarta, Indonesia. I like many programing languages",
+  "text": "I am a Back End Developer based in Yogyakarta, Indonesia. I like many programming languages",
   "btn1": "Resume",
   "btn2": "Project",
 };

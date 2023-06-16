@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = ({ footer: { titles, links, sociallinks } }) => {
   return (
    <>
-        <footer className='bg-gradient-to-b from-emerald-100 to-blue-400 pt-24 pb-7'>
+        <footer className='bg-gradient-to-b from-emerald-100 to-blue-400 pt-24 pb-7 px-8'>
             <div className='grid items-center grid-cols-3 justify-items-center'>
             {titles?.map((val, i) => (
                 <div key={i} className="grid items-center justify-items-center">
